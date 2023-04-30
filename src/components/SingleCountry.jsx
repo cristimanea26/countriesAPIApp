@@ -64,7 +64,7 @@ const SingleCountry = () => {
                 </ul>
               </div>
             )}
-            <Link to="/">
+            <Link to="/countriesAPIApp/">
               <span>Back</span>
             </Link>
           </div>

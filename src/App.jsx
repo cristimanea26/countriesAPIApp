@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Countries from "./components/Countries.jsx";
 import SingleCountry from "./components/SingleCountry.jsx";
 
@@ -9,8 +9,8 @@ const App = () => {
       <div className="content">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Countries />} />
-            <Route path="/:name" element={<SingleCountry />} />
+            <Route path="/countriesAPIApp/" element={<Countries />} />
+            <Route path="/countriesAPIApp/:name" element={<SingleCountry />} />
           </Routes>
         </BrowserRouter>
       </div>

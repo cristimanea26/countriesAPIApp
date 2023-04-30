@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Country = ({ flags, name, population, region, subregion }) => {
   return (
     <div className="country">
-      <Link to={`/${name.common}`}>
+      <Link to={`/countriesAPIApp/${name.common}`}>
         <div
           className="country-image"
           style={{ backgroundImage: `url(${flags.svg})` }}
