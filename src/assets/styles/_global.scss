@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Quicksand Regular";
+  font-weight: italic;
+  font-style: normal;
+  src: local("Quicksand-Regular"),
+    url("../fonts/Quicksand-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand Bold";
+  font-weight: italic;
+  font-style: normal;
+  src: local("Quicksand-Bold"),
+    url("../fonts/Quicksand-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body,
+#root,
+.App {
+  min-height: 100%;
+}
+
+html,
+body {
+  line-height: 1;
+  background-color: $colorF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+textarea,
+input {
+  outline: none;
+}
+
+a {
+  color: $colorH;
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    color: $colorI;
+  }
+
+  &:link,
+  &:visited,
+  &:focus,
+  &:active {
+    color: $colorH;
+  }
+}
+
+a,
+a::before,
+a::after,
+span,
+svg,
+.btn {
+  -webkit-transition: $transitionTime;
+  -moz-transition: $transitionTime;
+  -ms-transition: $transitionTime;
+  -o-transition: $transitionTime;
+  transition: $transitionTime;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  text-shadow: $textShadow;
+}
+
+img {
+  box-shadow: $boxShadow;
+}
+
+.App,
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: $colorB;
+}
+
+//* MEDIA QUERIES
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+}
