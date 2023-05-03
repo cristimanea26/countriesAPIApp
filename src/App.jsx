@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Countries from "./components/Countries.jsx";
-import SingleCountry from "./components/SingleCountry.jsx";
+import Countries from "./components/Countries";
+import SingleCountry from "./components/SingleCountry";
 
 const App = () => {
   return (
