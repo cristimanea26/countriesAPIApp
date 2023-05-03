@@ -15,7 +15,7 @@
         #search {
           width: 100%;
           height: 2.5rem;
-          border-radius: 0.25rem;
+          border-radius: 0.4rem;
           font-family: $quicksandRegular;
           font-size: 1.25rem;
           background-color: $colorF;
@@ -27,7 +27,7 @@
         #regions {
           width: 7.5rem;
           height: 2.5rem;
-          border-radius: 0.25rem;
+          border-radius: 0.4rem;
           font-family: $quicksandRegular;
           font-size: 1.25rem;
           background-color: $colorF;
@@ -47,7 +47,7 @@
         position: relative;
         width: 25rem;
         height: 25rem;
-        border-radius: 0.5rem;
+        border-radius: 0.6rem;
 
         &:hover {
           a {
@@ -84,8 +84,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border: 0.25rem solid $colorA;
-            border-radius: 0.5rem;
+            border: 0.2rem solid $colorA;
+            border-radius: 0.8rem;
             z-index: 1;
           }
 
@@ -99,8 +99,8 @@
             width: 100%;
             height: 20%;
             background-color: $colorA;
-            border-bottom-left-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
+            border-bottom-left-radius: 0.6rem;
+            border-bottom-right-radius: 0.6rem;
             padding: 1rem;
             overflow: hidden;
             z-index: 5;
@@ -173,8 +173,8 @@
       background-position: center;
       width: 25rem;
       height: 25rem;
-      border: 0.25rem solid $colorA;
-      border-radius: 0.5rem;
+      border: 0.2rem solid $colorA;
+      border-radius: 0.8rem;
       z-index: 1;
     }
 
@@ -233,17 +233,17 @@
       a {
         display: block;
         text-align: center;
-        width: 5rem;
+        width: 7.5rem;
         color: $colorF;
         font-family: $quicksandBold;
         font-size: 1rem;
         background-color: $colorA;
-        border-radius: 0.35rem;
+        border-radius: 0.6rem;
         padding: 1rem;
         margin: 1rem 0;
 
         &:hover {
-          box-shadow: inset 0 0 0 1.5rem $colorH;
+          box-shadow: inset 0 0 0 2.5rem $colorH;
         }
       }
     }
